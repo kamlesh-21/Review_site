@@ -1,0 +1,186 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	height: 50px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 15px;
+	line-height: 50px;
+}
+
+nav button {
+	background-color: #fff;
+	color: #333;
+	border: none;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#customer-register-form, #company-register-form {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	background-color: #fff;
+	box-shadow: 0 0 10px #ccc;
+	padding: 20px;
+}
+
+#customer-register-form form, #company-register-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+#customer-register-form form label, #company-register-form form label {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+#customer-register-form form input, #company-register-form form input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+#customer-register-form form input[type="submit"], #company-register-form form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#customer-register-close-btn, #company-register-close-btn {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+
+header {
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	padding: 50px 0;
+}
+
+header h1 {
+	font-size: 36px;
+	margin: 0;
+}
+
+header p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+#search-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+
+#search-bar {
+	width: 500px;
+	height: 40px;
+	padding: 0 15px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+
+#search-btn {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#product-reviews {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: right;                  
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 20px 0;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.product-review {
+	width: 30%;
+    .product-review img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .product-review h2 {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .product-review p {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .product-review .rating {
+        font-size: 20px;
+        color: #f00;
+        font-weight: bold;
+    }
+}
+
+   

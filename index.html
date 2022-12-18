@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Review Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav>
+		<div id="customer-login">
+            <a href="#">Customer Login</a>
+            <button id="customer-register-btn">Register Now</button>
+        </div>
+       
+	</nav>
+	<div id="customer-register-form" style="display: none;">
+        <button id="customer-register-close-btn">Close</button>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="location">Location:</label><br>
+            <input type="text" id="location" name="location"><br>
+            <label for="avatar">Avatar:</label><br>
+            <input type="file" id="avatar" name="avatar"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+    <div id="company-register-form" style="display: none;">
+        <button id="company-register-close-btn">Close</button>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="location">Location:</label><br>
+            <input type="text" id="location" name="location"><br>
+            <label for="avatar">Avatar:</label><br>
+            <input type="file" id="avatar" name="avatar"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+    
+	<header>
+		<h1>Welcome to Our Product Review Website</h1>
+        
+		<p>Find reviews of the personal products you're using or searching for on our site.</p>
+	</header>
+
+	<div id="search-container">
+		<input type="text" id="search-bar" placeholder="Search for a product">
+		<button id="search-btn">Search</button>
+	</div>
+
+	<div id="product-reviews">
+		<div class="product-review">
+			<img src="image.png" alt="Product 1">
+			<h2>Product 1</h2>
+			<p>Review by <b>Customer 1</b></p>
+			<p>I've been using this product for a while now and I have to say I'm really happy with it. It's made a big difference in my daily routine. I would definitely recommend it to others.</p>
+			<p>Rating: <span class="rating">5</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 2">
+			<h2>Product 2</h2>
+			<p>Review by <b>Customer 2</b></p>
+			<p>I wasn't sure about this product at first, but after giving it a try I'm glad I did. It's helped me a lot and I'm really happy with the results. Would definitely recommend it.</p>
+			<p>Rating: <span class="rating">4</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 3">
+			<h2>Product 3</h2>
+			<p>Review by <b>Customer 3</b></p>
+			<p>I was disappointed with this product. It didn't live up to my expectations and I wouldn't recommend it to others. Save your money and look for something else.</p>
+			<p>Rating: <span class="rating">2</span></p>
+		</div>
+        <div class="product-review">
+			<img src="image.png" alt="Product 1">
+			<h2>Product 1</h2>
+			<p>Review by <b>Customer 1</b></p>
+			<p>I've been using this product for a while now and I have to say I'm really happy with it. It's made a big difference in my daily routine. I would definitely recommend it to others.</p>
+			<p>Rating: <span class="rating">5</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 2">
+			<h2>Product 2</h2>
+			<p>Review by <b>Customer 2</b></p>
+			<p>I wasn't sure about this product at first, but after giving it a try I'm glad I did. It's helped me a lot and I'm really happy with the results. Would definitely recommend it.</p>
+			<p>Rating: <span class="rating">4</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 3">
+			<h2>Product 3</h2>
+			<p>Review by <b>Customer 3</b></p>
+			<p>I was disappointed with this product. It didn't live up to my expectations and I wouldn't recommend it to others. Save your money and look for something else.</p>
+			<p>Rating: <span class="rating">2</span></p>
+		</div>
+        <div class="product-review">
+			<img src="image.png" alt="Product 1">
+			<h2>Product 1</h2>
+			<p>Review by <b>Customer 1</b></p>
+			<p>I've been using this product for a while now and I have to say I'm really happy with it. It's made a big difference in my daily routine. I would definitely recommend it to others.</p>
+			<p>Rating: <span class="rating">5</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 2">
+			<h2>Product 2</h2>
+			<p>Review by <b>Customer 2</b></p>
+			<p>I wasn't sure about this product at first, but after giving it a try I'm glad I did. It's helped me a lot and I'm really happy with the results. Would definitely recommend it.</p>
+			<p>Rating: <span class="rating">4</span></p>
+		</div>
+		<div class="product-review">
+			<img src="image.png" alt="Product 3">
+			<h2>Product 3</h2>
+			<p>Review by <b>Customer 3</b></p>
+			<p>I was disappointed with this product. It didn't live up to my expectations and I wouldn't recommend it to others. Save your money and look for something else.</p>
+			<p>Rating: <span class="rating">2</span></p>
+		</div>
+		<!-- Add additional product reviews here -->
+	
+<footer>
+    <p>Copyright 2021 Product Review Website</p>
+    <nav>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <div>
+            <button class="company-login-btn">Company Login</button>
+            <button class="company-register-btn">Company Registration</button>
+        </div>
+    </nav>
+</footer>
+<script src="script.js"></script>
+</body>
+</html> 
